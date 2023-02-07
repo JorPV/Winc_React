@@ -1,5 +1,6 @@
 import './DrinkButtons.css';
 import { Button } from './UI/Button';
+import { useState } from 'react';
 
 export const DrinkButtons = ({ drinkOne, drinkTwo }) => {
     return (
@@ -12,3 +13,9 @@ export const DrinkButtons = ({ drinkOne, drinkTwo }) => {
         </>
     );
 };
+
+// export const DrinkButtons = () => {
+//     const [selectedDrink, setSelectedDrink] = useState('');
+
+//     return (<p>Getting ready a cup of: {selectedDrink}</p>);
+// };
