@@ -1,10 +1,11 @@
-import { availableDrinks } from "../utils/data"
+import { DrinkItem } from "./DrinkItem"
 
 export const DrinkItems = ({drinks}) => {
     return (
         <>
-            {availableDrinks.map((drink) => (
-                <p key={drink.id}>{drink.name}</p>
+            {drinks.map((drink) => (
+                // <p key={drink.id}>{drink.name}</p>
+            <DrinkItem key={drink.id} drink = {drink}/>
             ))}    
         </>
     );

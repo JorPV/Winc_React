@@ -5,10 +5,14 @@ import { useState } from 'react';
 export const DrinkButtons = ({ drinkOne, drinkTwo, drinkThree, drinkFour, drinkFive, drinkSix }) => {
     return (
         <>
-            <h3>What can I offer you to drink, {drinkOne}, {drinkTwo}, {drinkThree}, {drinkFour}, {drinkFive} or {drinkSix}?</h3>
+            {/* <h3>What can I offer you to drink, {drinkOne}, {drinkTwo}, {drinkThree}, {drinkFour}, {drinkFive} or {drinkSix}?</h3> */}
             <div className="button-group">
                 <Button text={drinkOne} />
                 <Button text={drinkTwo} />
+                <Button text={drinkThree} />
+                <Button text={drinkFour} />
+                <Button text={drinkFive} />
+                <Button text={drinkSix} />
             </div>
         </>
     );

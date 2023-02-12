@@ -8,9 +8,10 @@ export const DrinkSearch = () => {
 
     return (
         <>  
-            <label>Or find your favourite drink:</label>
+            <label>Find your favourite drink:</label>
             <TextInput />
-            <DrinkItems drinks ={availableDrinks} />
+            <br />
+            <DrinkItems drinks ={ availableDrinks } />
         </>
     );
 };

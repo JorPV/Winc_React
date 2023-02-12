@@ -1,0 +1,10 @@
+.drink-item{
+    display: flex;
+    flex-direction: column;
+	justify-content: space-evenly;
+	align-items:center;
+    align-content: stretch;
+	gap: 2rem;
+    borderø:2px; 
+    border-radius: 10px;
+}
